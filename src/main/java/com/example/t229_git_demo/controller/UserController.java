@@ -8,6 +8,12 @@ public class UserController {
 
     @RequestMapping(value = "/getUserInfo")
     public String getUserInfo(){
+
         return  "admin" ;
+    }
+
+    @RequestMapping(value = "/getAddress")
+    public String getAddress(){
+        return " 岳阳";
     }
 }
